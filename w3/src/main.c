@@ -22,7 +22,7 @@ int main() {
     printf("Original array: ");
     print_array(array, 5);
 
-    int *ptr = array + 5; 
+    int *ptr = array + 4; 
     *ptr = 10; 
 
     printf("Modified array: ");
